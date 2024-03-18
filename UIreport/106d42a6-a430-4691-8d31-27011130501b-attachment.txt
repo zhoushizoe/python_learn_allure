@@ -1,0 +1,20 @@
+[35mDEBUG   [0m airtest.core.android.adb:adb.py:182 /Applications/AirtestIDE.app/Contents/MacOS/airtest/core/android/static/adb/mac/adb -P 5037 -s R3CW10C3D9N shell ls -l /data/local/tmp/rotationwatcher.jar
+[35mDEBUG   [0m airtest.core.android.rotation:rotation.py:49 install_rotationwatcher skipped
+[35mDEBUG   [0m airtest.core.android.adb:adb.py:182 /Applications/AirtestIDE.app/Contents/MacOS/airtest/core/android/static/adb/mac/adb -P 5037 -s R3CW10C3D9N shell app_process -Djava.class.path=/data/local/tmp/rotationwatcher.jar /data/local/tmp com.example.rotationwatcher.Main
+[35mDEBUG   [0m airtest.utils.nbsp:nbsp.py:37 [rotation_server]b'0'
+[32mINFO    [0m airtest.core.android.rotation:rotation.py:151 update orientation None->0
+[35mDEBUG   [0m airtest.core.android.adb:adb.py:182 /Applications/AirtestIDE.app/Contents/MacOS/airtest/core/android/static/adb/mac/adb -P 5037 -s R3CW10C3D9N shell wm size
+[35mDEBUG   [0m airtest.core.android.adb:adb.py:182 /Applications/AirtestIDE.app/Contents/MacOS/airtest/core/android/static/adb/mac/adb -P 5037 -s R3CW10C3D9N shell getprop ro.sf.lcd_density
+[35mDEBUG   [0m airtest.core.android.adb:adb.py:182 /Applications/AirtestIDE.app/Contents/MacOS/airtest/core/android/static/adb/mac/adb -P 5037 -s R3CW10C3D9N shell dumpsys SurfaceFlinger
+[35mDEBUG   [0m airtest.core.android.adb:adb.py:182 /Applications/AirtestIDE.app/Contents/MacOS/airtest/core/android/static/adb/mac/adb -P 5037 -s R3CW10C3D9N shell dumpsys input
+[35mDEBUG   [0m airtest.core.android.adb:adb.py:182 /Applications/AirtestIDE.app/Contents/MacOS/airtest/core/android/static/adb/mac/adb -P 5037 -s R3CW10C3D9N shell dumpsys window displays
+[35mDEBUG   [0m airtest.core.android.adb:adb.py:182 /Applications/AirtestIDE.app/Contents/MacOS/airtest/core/android/static/adb/mac/adb -P 5037 -s R3CW10C3D9N shell getevent -p
+[35mDEBUG   [0m airtest.core.android.adb:adb.py:182 /Applications/AirtestIDE.app/Contents/MacOS/airtest/core/android/static/adb/mac/adb -P 5037 -s R3CW10C3D9N shell ls -l /data/local/tmp/maxpresent.jar
+[35mDEBUG   [0m airtest.core.android.touch_methods.maxtouch:maxtouch.py:37 install_maxtouch skipped
+[35mDEBUG   [0m airtest.core.android.adb:adb.py:182 /Applications/AirtestIDE.app/Contents/MacOS/airtest/core/android/static/adb/mac/adb -P 5037 -s R3CW10C3D9N forward --no-rebind tcp:11522 localabstract:maxpresent_11522
+[35mDEBUG   [0m airtest.core.android.adb:adb.py:182 /Applications/AirtestIDE.app/Contents/MacOS/airtest/core/android/static/adb/mac/adb -P 5037 -s R3CW10C3D9N shell app_process -Djava.class.path=/data/local/tmp/maxpresent.jar /data/local/tmp com.netease.maxpresent.MaxPresent socket maxpresent_11522
+[35mDEBUG   [0m airtest.utils.nbsp:nbsp.py:37 [airtouch_server]b'Metrics Message : 3088.0=====1440.0'
+[35mDEBUG   [0m airtest.utils.nbsp:nbsp.py:37 [airtouch_server]b'Start local socket (maxpresent_11522) server...'
+[35mDEBUG   [0m airtest.core.android.adb:adb.py:182 /Applications/AirtestIDE.app/Contents/MacOS/airtest/core/android/static/adb/mac/adb -P 5037 -s R3CW10C3D9N shell screencap -p
+[35mDEBUG   [0m airtest.core.android.adb:adb.py:182 /Applications/AirtestIDE.app/Contents/MacOS/airtest/core/android/static/adb/mac/adb -P 5037 -s R3CW10C3D9N shell screencap -p
+[35mDEBUG   [0m airtest.core.android.adb:adb.py:182 /Applications/AirtestIDE.app/Contents/MacOS/airtest/core/android/static/adb/mac/adb -P 5037 -s R3CW10C3D9N shell screencap -p

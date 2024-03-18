@@ -1,0 +1,3 @@
+{"tag": "function", "depth": 1, "time": 1710327159.9981408, "data": {"name": "connect_device", "call_args": {"uri": "android://127.0.0.1:5037/R3CW10C3D9N?cap_method=ADBCAP&touch_method=MAXTOUCH&"}, "start_time": 1710327159.857413, "ret": "<Android 'R3CW10C3D9N'>", "end_time": 1710327159.9981272}}
+{"tag": "function", "depth": 2, "time": 1710327160.002409, "data": {"name": "try_log_screen", "call_args": {"screen": null, "quality": null, "max_size": null}, "start_time": 1710327160.002385, "ret": null, "end_time": 1710327160.002406}}
+{"tag": "function", "depth": 1, "time": 1710327162.207274, "data": {"name": "touch", "call_args": {"v": [1300, 243], "kwargs": {}, "times": 1}, "start_time": 1710327160.002346, "ret": [1300, 243], "end_time": 1710327162.207202}}
